@@ -1,0 +1,56 @@
+
+git is a version control system software
+github is a website that hosts git repositories..
+github ek hosting service h manages git repositories
+// bitbucket gitlab ...alternatives of github
+
+git  features
+snapshot captures....not difference
+.git hidden folder m saari history hota h project ka
+
+almost every operation is local..then baad m finally push kr skte h centralized server pr
+local--> no use of internet
+remote-> use of internet..server
+git has integrity..SHA Checksum nikalta h vo same hona chahiye start aur end mai ...koi b aakr unauthorized way m change nhi kr skta
+
+git generally adds data
+
+ This session contains details on basic Shell commands required to use Git.
+Directory Management commands:
+mkdir making a directory
+rmdir removing a directory
+cd changing the directory to another
+cd ..
+pwd present working directory
+ls list of files in current directory
+ls –la
+
+File Management commands:
+touch for creating a file
+rm (single file) removing
+rm (multiple files)
+cat (view) content of a particular file
+vi (edit) 
+cp (copy single file)
+cp (copy multiple files)
+cp (copy file from one directory to other)
+vi:
+Hit Escape.
+Type :wq!
+Hit Enter
+
+Add all permission to a directory:
+
+ –R 777 folder name
+
+Vi:
+Open the file using the vi or vim command: vi example_file.
+Press the "i" key to enter insert mode.
+Make your desired changes. ...
+Press the escape "ESC" key to exit insert mode.
+Type ":w" and press the enter key to save your changes.
+Type ":q" and press the enter key to close the file.
+
+
+echo is used to print on the screen :w
+git add -a ....se all files in staging area
