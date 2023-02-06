@@ -1,4 +1,6 @@
 
+
+
 git is a version control system software
 github is a website that hosts git repositories..
 github ek hosting service h manages git repositories
@@ -53,4 +55,7 @@ Type ":q" and press the enter key to close the file.
 
 
 echo is used to print on the screen :w
-git add -a ....se all files in staging area
+git log to see changes
+git commit
+git add filename se vo particular file staging area m chli jauegi
+git add --a ....se all files in staging area
