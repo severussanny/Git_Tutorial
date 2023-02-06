@@ -1,6 +1,7 @@
 
 
 
+
 git is a version control system software
 github is a website that hosts git repositories..
 github ek hosting service h manages git repositories
@@ -59,3 +60,6 @@ git log to see changes
 git commit
 git add filename se vo particular file staging area m chli jauegi
 git add --a ....se all files in staging area
+git commit -m "enter your message"
+isse commit ho jaata h repo m 
+
