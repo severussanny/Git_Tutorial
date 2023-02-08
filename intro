@@ -2,6 +2,7 @@
 
 
 
+
 git is a version control system software
 github is a website that hosts git repositories..
 github ek hosting service h manages git repositories
@@ -117,6 +118,75 @@ working tree pr b nhi dikhegi
 rm -rf git -> delete the git repository....ab humara folder ek git repository nhi hai...
 but agr ab hum iss folder k andr koi git repo clone krenge...toh vo folder ek git repo hoga
 git clone url FolderName ----
+
+
+git log -p ......... issse hume last jo commit hua h usme kya kya changes huye h detail m show hota h
+
+git log -p -3 ...last 3 commits along with their differences
+
+git log --stat..... se saare  commit m kya kya changes huye h short m dikhayega....har file m kitni lines added....kitni removed
+ 
+git log --pretty=oneline.... saare abhtitk k commits one line m kr dega
+git log --pretty=short.... short m commit ki info aayegi saare
+
+Author -> jisne file banayi h first time
+Commit-> jisne file m change kia h
+
+
+git log --since=2.days....last 2 days commit will be shown
+git log --since=2.months.....weeks....
+
+git scm useful options for git log format....google this...
+git log ki documentation aajayegi...
+git log --pretty=format:"%h -- %an"
+h-> hash commit id.... 
+an-> author name
+ ae-> author email
+
+kisi ne already commit kia hua h....maine kuch file changes ki 
+mai chahta hun yeh changes mai uss comit k saath merge kr dun jo already ho chuka h
+aur uss comit ka mssg bhi change krna h
+ run---> git commit --amend ...isse bas last commit hi change kr skte hain...hum apne changes isme merge kr skte along with the new message
+
+
+git restore --staged fileName .......to unstage
+git restore fileName to discard changes in working directory
+
+hume restore krna h koi file pichle vaale commmit m jaisi thi vaisa krna h...yeh bhoot imp command hai
+git checkout --fileName
+
+
+maine abhi tk jitne b changes kiye working directory mai...unsbko hatakr mai usse apne pichle commit se match krwana chahta hun
+git checkout -f
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
