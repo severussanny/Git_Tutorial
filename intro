@@ -162,7 +162,8 @@ git checkout -f
 
 git remote -> means website jo internet pr h..usko pull push krna h
 
-
+git config --global alias.st status
+this means whenever I ll type git st.....this will be same as git status
 
 
 
