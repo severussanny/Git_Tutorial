@@ -87,4 +87,15 @@ apne last commit ko staging area se compare krna
 git diff --staged 
 
 
+git commit -a -m "put some useful message hert"
+yeh saari tracked file ko staged krke commit kr deta h...untracked file commit m nhi jayegi
+untracked file ko specifically add krna padega staging area m
+
+
+"message" mai humesha useful info hona chahiye...like yeh feature add kia ...ya bug remove kia types
+
+
+ 
+
+
 
