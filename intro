@@ -100,4 +100,26 @@ delete a file --> rm file_Name
 rename a file -> mv file_name new_file_name
 
 
+agr koi file already staged area m hai
+humne usse rename kia mv command ki help se
+toh vo file old name vali deleted status m aayegi
+aur new name vali file vapas untracked status m aajayegi...
+hume vapas se usko stagged tracked vale area m laana padega
+
+
+rm -cached fileName
+koi b file ko agr git k tracking system se remove krna h toh use above command
+git status krne pr vo file---> deleted status pr dikhegi
+working tree pr b nhi dikhegi
+
+
+
+rm -rf git -> delete the git repository....ab humara folder ek git repository nhi hai...
+but agr ab hum iss folder k andr koi git repo clone krenge...toh vo folder ek git repo hoga
+git clone url FolderName ----
+
+
+
+
+
 
