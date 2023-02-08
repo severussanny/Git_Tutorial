@@ -95,7 +95,9 @@ untracked file ko specifically add krna padega staging area m
 "message" mai humesha useful info hona chahiye...like yeh feature add kia ...ya bug remove kia types
 
 
- 
+Moving and Renaming Files using GIT Command 
+delete a file --> rm file_Name
+rename a file -> mv file_name new_file_name
 
 
 
