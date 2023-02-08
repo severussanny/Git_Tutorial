@@ -28,6 +28,7 @@ pwd present working directory
 ls list of files in current directory
 ls –la
 
+
 File Management commands:
 touch for creating a file
 rm (single file) removing
@@ -41,6 +42,8 @@ vi:
 Hit Escape.
 Type :wq!
 Hit Enter
+
+
 
 Add all permission to a directory:
 
@@ -62,4 +65,26 @@ git add filename se vo particular file staging area m chli jauegi
 git add --a ....se all files in staging area
 git commit -m "enter your message"
 isse commit ho jaata h repo m 
+rm -rf .git puri git repository hi del kr detta h
+ Git clone url -> clone krona ho agr repository
+gitignore -> file mai hum esi files directories add krte hain jisme changes ho agr toh hume usko track nhi krna h...hidden rkhna h...
+eg-> error.log file
+git add . -> files staging area m chli jaati hain
+git add --a ->same as above iles staging area m chli jaati hain
+
+
+.... files agr staging area mai hain aur humne ussko change kia kuch b....toh vo modiefied area aur staging area dono mai rhegi
+but dono k version alg honge
+staging area m purani file hogi
+modified area m current working directory vali file hogi jisme update kia h humne
+
+git diff -> staging area aur modified area vaali file k beech ka difference pata chlega...
+kya line add ki....kya delete ki
+staging area aur working directory ko compare krta hai
+
+
+apne last commit ko staging area se compare krna
+git diff --staged 
+
+
 
