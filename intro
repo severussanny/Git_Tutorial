@@ -166,6 +166,91 @@ git config --global alias.st status
 this means whenever I ll type git st.....this will be same as git status
 
 
+git checkout -b newBranchName
+isse nai branch banti hai...aur usme hume le jaata h
+
+git checkout master
+purani vali branch m jaana h
+
+git branch 
+all branch listed
+
+git checkout branchName
+uss particular branch m jaana h
+
+git merge branchName
+isse branch merge ho jaati hai
+but abhi conflicts resolve krenge uske baad hi stage aur commit krenge
+conflict resolve krne k liye VS code hume choose krne ka option deta h jis b jagah pr conflict hua rehta hai
+
+then after this....type git add . and then commit
+
+
+Merge Conflict -> humne merge krri koi branch but git usko merge nhi kr paaya h
+har branch ka last commit dekhne k liye below command
+git branch -v
+
+git branch --merged
+vo sarai branches dikhata h jo merge kr di hain already
+
+
+pushing git branches to remote repo
+branches ko explicitly push krna padta h
+
+git push origin branchName
+this means ki origin name k url mai...branchName ko push krdo
+jjis branch ko push krre h..ussi branch m reho
+ 
+pehle comit krlo uske baad hi push krna h
+git push origin bugFix:newBranchName_in_repo
+
+repo m branch h koi si.....usko kaise delete krna h
+:w
+
+
+
+
+
+
+
+
+
+
+
+git branch --no-merged
+vo sarai branches dikhata h jo merge nhi ki  hai
+
+git branch -d branchName
+gives error if accidently toh nhi delete krra h bina merge kiye branch ko
+
+git branch -D branchName
+no error and branch gets deleted
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
